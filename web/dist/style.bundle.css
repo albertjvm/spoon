@@ -1,0 +1,80 @@
+.TopBar {
+  height: 25px;
+  font-size: 25px;
+  width: calc(100% - 30px);
+  background: #0F8B8D;
+  color: white;
+  padding: 15px; }
+.TextField input {
+  width: 100%;
+  text-align: center;
+  border: 1px solid silver;
+  padding: 15px 0;
+  font-size: 16px;
+  margin-top: 10px; }
+  .TextField input:focus {
+    outline: none; }
+.Button {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid silver;
+  font-size: 16px;
+  color: white;
+  padding: 15px 0; }
+  .Button.Button-primary {
+    background: #1A936F; }
+    .Button.Button-primary:hover {
+      background: #1ea97f; }
+  .Button.Button-secondary {
+    background: #A8201A; }
+    .Button.Button-secondary:hover {
+      background: #be241d; }
+.Login .Button {
+  margin-top: 10px; }
+.Tabs .Tabs--TabBar {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row; }
+  .Tabs .Tabs--TabBar .Tabs--TabBar--Tab {
+    flex: 1;
+    border: none;
+    background: #114B5F; }
+    .Tabs .Tabs--TabBar .Tabs--TabBar--Tab.Tabs--TabBar--Tab-active {
+      color: white;
+      background: #155c75; }
+    .Tabs .Tabs--TabBar .Tabs--TabBar--Tab:hover {
+      background: #155c75; }
+.ApiConnect {
+  border: 3px solid #A8201A;
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  padding: 20px; }
+  .ApiConnect.ApiConnect-connected {
+    border-color: #1A936F; }
+  .ApiConnect .ApiConnect--name {
+    font-size: 22px;
+    margin-bottom: 10px; }
+body {
+  background: #DAD2D8;
+  font-size: 16px;
+  margin: 0;
+  padding: 0; }
+
+body, input {
+  font-family: Helvetica, Arial, sans-serif; }
+
+a {
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  background: #A8201A;
+  font-size: 16px;
+  color: white;
+  border: 1px solid silver;
+  display: block; }
+  a:hover {
+    background: #be241d; }

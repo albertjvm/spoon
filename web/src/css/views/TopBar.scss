@@ -1,0 +1,10 @@
+@import "../variables";
+
+.TopBar {
+  height: 25px;
+  font-size: 25px;
+  width: calc(100% - 30px);
+  background: $blue;
+  color: $white;
+  padding: 15px;
+}

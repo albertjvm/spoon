@@ -1,0 +1,18 @@
+@import "../variables";
+
+.ApiConnect {
+  border: 3px solid $red;
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  padding: 20px;
+
+  &.ApiConnect-connected {
+    border-color: $green;
+  }
+
+  .ApiConnect--name {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+}
